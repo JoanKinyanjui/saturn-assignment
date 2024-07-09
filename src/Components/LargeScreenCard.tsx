@@ -35,19 +35,19 @@ function LargeScreenCard() {
            <div className='flex items-start gap-5  mt-5'>
             <div className='grid w-[60%]   '>
                <div className='grid w-full  '>
-                  <div className='flex items-start'>
-                     <div className='grid gap-2.5 border-r-[1.5px] border-[#EEEEEE] w-1/3 '>
+                  <div className='flex items-center '>
+                     <div className='grid gap-2.5 border-r-[1.5px] border-[#EEEEEE] items-start w-1/3 h-full pr-5 '>
                         <p className='text-[#B27E02] font-medium text-[18px] xl:text-[20px] font-poppins '>₹ 1.4 Cr</p>
                         <p className='text-[12px] text-[#6B6B6B] font-[400] font-poppins'>(₹ 6,990 / Sq  Ft )</p>
                      </div>
-                     <div className='grid gap-2.5 border-r-[1.5px] border-[#EEEEEE]  w-1/3 pl2.5 xl:pl-5 '>
+                     <div className='grid gap-2.5 border-r-[1.5px] border-[#EEEEEE] h-full  w-1/3 px-5 '>
                        <div className='flex gap-2 items-center'>
                         <Image alt='svg' src='/assets/plot.svg' width={25} height={25} />
                        <p className='text-[#B27E02] font-medium text-[18px] xl:text-[20px] font-poppins '>Plot Size</p>
                        </div>
                         <p className='text-[12px] text-[#6B6B6B] font-[400] font-poppins'>1,800 to 7,200 Sq Ft</p>
                      </div>
-                     <div className='grid gap-2.5  w-1/3 pl-2.5 xl:pl-5'>
+                     <div className='grid gap-2.5  w-1/3 h-full px-5'>
                         <div className='flex gap-2 items-center'>
                         <Image alt='svg' src='/assets/size.svg' width={25} height={25} />
                         <p className='text-[#B27E02] font-medium text-[18px] xl:text-[20px] font-poppins '>Area</p>
@@ -57,15 +57,15 @@ function LargeScreenCard() {
                   </div>
                   <div className='border-[#EEEEEE] border-t-[1.5px] w-full my-2.5'></div>
                   <div className='flex'>
-                     <div className='grid  border-r-[1.5px] border-[#EEEEEE]  w-1/3  '>
+                     <div className='grid  border-r-[1.5px] border-[#EEEEEE] items-center h-full  w-1/3 pr-5 '>
                         <p className='text-[14px] font-[400] text-[#080808]'>Total Units</p>
                         <p className='text-[12px] font-[400] text-[#7E7E7E]'>968</p>
                      </div>
-                     <div className='grid  border-r-[1.5px] border-[#EEEEEE]   w-1/3  pl-5'>
+                     <div className='grid  border-r-[1.5px] border-[#EEEEEE] h-full  w-1/3  px-5'>
                         <p className='text-[14px] font-[400] text-[#080808]'>Project Type</p>
                         <p className='text-[12px] font-[400] text-[#7E7E7E]'> Plotted Development</p>
                      </div>
-                     <div className='grid   w-1/3  pl-5'>
+                     <div className='grid  h-full w-1/3  px-5'>
                         <p className='text-[14px] font-[400] text-[#080808]'>Status</p>
                         <p className='text-[12px] font-[400] text-[#7E7E7E]'> Newly Launched</p>
                      </div>
