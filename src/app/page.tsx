@@ -4,14 +4,6 @@ import Navbar from "@/Components/Commons/Navbar";
 import LargeScreenCard from "@/Components/LargeScreenCard";
 import SmallScreenCard from "@/Components/SmallScreenCard";
 
-const style = {
-  position: 'absolute' as 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  width: '100%',
-  paddingX: '48px',
-};
 
 export default function Home() {
   return (
