@@ -5,7 +5,7 @@ import Ammenities from './Commons/Ammenities'
 
 function LargeScreenCard() {
   return (
-<div className='w-full  rounded-[20px] grid p-5 bg-white h-[max-content] '>
+<div className='w-full  rounded-[20px] grid p-5 bg-white h-[max-content] mt-5 '>
 
         <div className='flex  justify-end w-full'>
             <div className='shadow-custom w-[40px] h-[40px] flex justify-center items-center rounded-full'>
@@ -30,7 +30,7 @@ function LargeScreenCard() {
            <p className='text-[20px] font-[400] text-[#272727] font-poppins'>Tangled Up In Green</p>
            </div>
            <div className='py-5 border-b-[1px] border-[#ABABAB]'>
-            <p className='text-[14px] font-[300] text-start font-poppins text-[#707070]'>Tangled Up In Green, a vision of Total Environment, is a luxury plotted development nestled amidst the lush landscapes of Devanahalli. This peaceful hideaway in North Bangalore sits on 115 acres and has exclusive residential plots with a modern design and green living blend. The plots range from 1800 sq. ft. to 7200 sq. ft. You could be fascinated by the botanical wonders found at the Tree Museum or…</p>
+            <p className='text-[14px] font-[300] text-start font-poppins text-[#707070] leading-custom-24'>Tangled Up In Green, a vision of Total Environment, is a luxury plotted development nestled amidst the lush landscapes of Devanahalli. This peaceful hideaway in North Bangalore sits on 115 acres and has exclusive residential plots with a modern design and green living blend. The plots range from 1800 sq. ft. to 7200 sq. ft. You could be fascinated by the botanical wonders found at the Tree Museum or…</p>
            </div>
            <div className='flex items-start gap-5  mt-5'>
             <div className='grid w-[60%]   '>
@@ -78,7 +78,7 @@ function LargeScreenCard() {
              </div>
             </div>
             <div className='w-[40%]  h-full border'>
-                <Image src='/assets/map.png'  alt='maps' width={315} height={409} className='w-[100%] h-full'/>
+                <Image src='/assets/map.png'  alt='maps' width={315} height={409} className='w-[100%] h-full rounded-md'/>
             </div>
            </div>
            <div className='w-full flex gap-5 my-5'>

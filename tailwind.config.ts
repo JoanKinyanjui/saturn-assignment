@@ -20,6 +20,9 @@ const config: Config = {
         inter: ['Inter', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
       },
+      lineHeight: {
+        'custom-24': '24px',
+      },
     },
   },
   plugins: [],

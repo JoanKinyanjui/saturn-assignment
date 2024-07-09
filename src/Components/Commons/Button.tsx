@@ -9,7 +9,7 @@ function Button({buttonText,outline,customClass,onClick}:ButtonProps) {
   return (
     <div 
     onClick={onClick}
-    className={`${outline ? 'text-[#B27E02] font-[400] border-[1px] md:border-[#B27E02]' : 'text-white font-[500] md:font-[600] bg-[#B27E02]'} text-center text-[16px]  w-full py-[9px] rounded-[7px]`}>
+    className={`${outline ? 'text-[#B27E02] font-[400] border-[1px] border-[#B27E02]' : 'text-white font-[500] md:font-[600] bg-[#B27E02]'} text-center text-[16px]  w-full py-[9px] rounded-[7px]`}>
       {buttonText}
     </div>
   )

@@ -13,12 +13,12 @@ function SmallScreenCard() {
       </div>
 
       {/* Content */}
-      <div className='grid gap-5 w-[85%] mx-auto'>
+      <div className='grid gap-5 w-[85%] mx-auto '>
     <div className='grid gap-2.5'>
     <p className='text-[20px] font-[400] text-[#272727] font-poppins'>Tangled Up In Green</p>
-    <p className='text-[12px] font-[300] text-start font-poppins text-[#707070]'>Tangled Up In Green, a vision of Total Environment, is a luxury plotted development nestled amidst the lush landscapes of Devanahalli. This peaceful hideaway in North Bangalore sits on 115 acres and has exclusive residential plots with a modern design and green living blend. The plots range from 1800 sq. ft. to 7200 sq. ft. You could be fascinated by the botanical wonders found at the Tree Museum or…</p>
+    <p className='text-[12px] font-[300] text-start font-poppins text-[#707070] leading-custom-24'>Tangled Up In Green, a vision of Total Environment, is a luxury plotted development nestled amidst the lush landscapes of Devanahalli. This peaceful hideaway in North Bangalore sits on 115 acres and has exclusive residential plots with a modern design and green living blend. The plots range from 1800 sq. ft. to 7200 sq. ft. You could be fascinated by the botanical wonders found at the Tree Museum or…</p>
     </div>
-  <div className='grid gap-5 font-poppins'>
+  <div className='grid gap-5 font-poppins mt-2.5'>
   <div className='flex justify-between'>
       <div className='flex gap-1 w-1/2'>
       <Image alt='svg' src='/assets/rupee.svg' width={35} height={35} className='w-[35px] h-[35px]' />
@@ -60,7 +60,7 @@ function SmallScreenCard() {
      <div className=' '>
      <div className='shadow-custom fixed bottom-[40px] w-full bg-white py-[19px]'>
     <div className='w-[85%] mx-auto flex justify-between gap-5'>
-    <Button buttonText='Know More' outline={true}/>
+    <Button buttonText='Know More' outline={true} />
     <Button buttonText='Schedule site visit' outline={false}/>
     </div>
       </div>
