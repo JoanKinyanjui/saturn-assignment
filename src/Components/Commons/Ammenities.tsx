@@ -13,7 +13,7 @@ function Ammenities() {
            <div className='bg-[#FFF2D0] rounded-[8px] p-[7px]'>
            <Image alt='svg' src={item.icon} width={22} height={22} />
            </div>
-           <p className='font-normal font-poppins text-[14px] text-[#7E7E7E]'> {item.title}</p>
+           <p className='font-light font-poppins text-[14px] text-[#7E7E7E]'> {item.title}</p>
         </div>
         ))}
       </div>
@@ -23,7 +23,7 @@ function Ammenities() {
             <div className='bg-[#FFF2D0] rounded-[8px] p-[7px]'>
             <Image alt='svg' src={item.icon} width={22} height={22} />
            </div>
-           <p className='font-normal font-poppins text-[14px] text-[#7E7E7E]'> {item.title}</p>
+           <p className='font-light font-poppins text-[14px] text-[#7E7E7E]'> {item.title}</p>
         </div>
         ))}
       </div>

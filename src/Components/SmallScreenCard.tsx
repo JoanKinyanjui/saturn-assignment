@@ -8,7 +8,7 @@ function SmallScreenCard() {
   return (
     <div className='w-screen bg-white'>
       {/* carousel */}
-      <div className='mb-5 mt-2.5'>
+      <div className='mb-6 '>
 <CarouselComponent />
       </div>
 

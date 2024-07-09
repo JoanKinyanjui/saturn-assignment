@@ -24,7 +24,7 @@ const CarouselComponent: React.FC = () => {
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {images.map((image, index) => (
-          <img key={index} src={image} alt={`Slide ${index}`} className="w-full h-[335px]" />
+          <img key={index} src={image} alt={`Slide ${index}`} className="w-full border h-[335px]" />
         ))}
       </div>
       <div className="absolute bottom-0 left-0 right-0 flex justify-center p-2">

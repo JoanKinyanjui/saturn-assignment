@@ -16,10 +16,10 @@ const style = {
 export default function Home() {
   return (
 <>
-<div className="hidden md:flex px-[48px] w-screen h-screen relative">
+<div className="hidden md:flex px-[24px] xl:px-[48px] w-screen h-screen relative">
      <LargeScreenCard /> 
 </div>
-<div className="grid md:hidden h-full bg-[#F4F8FB]">
+<div className="grid md:hidden h-full gap-2.5 bg-[#F4F8FB]">
     <Navbar />
      <SmallScreenCard /> 
 </div></>
