@@ -12,6 +12,7 @@ export default function Home() {
 <div className="grid md:hidden h-full gap-2.5 bg-[#F4F8FB]">
     <Navbar />
      <SmallScreenCard /> 
-</div></>
+</div>
+</>
   );
 }
