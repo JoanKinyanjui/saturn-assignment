@@ -1,9 +1,6 @@
 import React from 'react';
 import { ButtonProps } from '../Types';
-import { Inter,Poppins } from "next/font/google";
 
-
-const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
 
 function Button({buttonText,outline,customClass,onClick}:ButtonProps) {
   return (
