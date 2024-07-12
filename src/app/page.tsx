@@ -9,10 +9,10 @@ export default function Home() {
  <div className="hidden md:flex px-[24px] xl:px-[48px] w-screen h-screen ">
      <LargeScreenCard /> 
 </div>
-{/* <div className="grid md:hidden h-full gap-2.5 bg-[#F4F8FB]">
+<div className="grid md:hidden h-full gap-2.5 bg-[#F4F8FB]">
     <Navbar />
      <SmallScreenCard /> 
-</div>   */}
+</div>  
 </div>
   );
 }
